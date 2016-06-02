@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+.header {
+  margin: 0 auto;
+  width: 1000px;
+  height: 80px; }
+  .header .logo {
+    margin-top: 12px; }
+  .header .info {
+    float: right;
+    margin-top: 20px;
+    overflow: hidden; }
+    .header .info .phonetime {
+      height: 40px;
+      float: left;
+      margin-right: 15px;
+      padding-right: 15px;
+      border-right: #999 solid 1px; }
+      .header .info .phonetime img {
+        vertical-align: middle; }
+      .header .info .phonetime .phone {
+        vertical-align: middle;
+        color: #26b7bc;
+        font-size: 14px; }
+      .header .info .phonetime p {
+        margin-top: 8px;
+        color: #999999;
+        font-size: 12px; }
+    .header .info .language {
+      float: left;
+      height: 40px;
+      line-height: 40px; }
+      .header .info .language .en {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        background-image: url(/images/en/icon_head_en.png);
+        background-position: 0 20px; }
+      .header .info .language .cn {
+        margin-left: 10px;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        background-image: url(/images/en/icon_head_cn.png);
+        background-position: 0 20px; }
+      .header .info .language span {
+        color: #666;
+        vertical-align: middle; }
+      .header .info .language .off .icon-language {
+        background-position: 20px 20px; }
+      .header .info .language .off span {
+        color: #999; }
+      .header .info .language a {
+        text-decoration: none; }
+
+.banner .swiper-slide {
+  height: 600px;
+  background-position: center; }
+.banner .banner01 {
+  background-image: url(/images/en/banner01.jpg); }
+.banner .banner02 {
+  background-image: url(/images/en/banner02.jpg); }
+.banner .banner03 {
+  background-image: url(/images/en/banner03.jpg); }
+.banner .swiper-pagination {
+  bottom: 40px; }
+  .banner .swiper-pagination .swiper-pagination-bullet {
+    height: 15px;
+    width: 15px;
+    background-color: #fff; }
+  .banner .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #ffd900; }
+
+.company {
+  padding-top: 60px; }
+  .company .title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #26b7bc; }
+  .company .sub {
+    margin-bottom: 25px;
+    text-align: center;
+    height: 15px;
+    line-height: 15px; }
+    .company .sub span {
+      vertical-align: middle;
+      display: inline-block;
+      width: 45px;
+      border-top: #999 solid 1px; }
+    .company .sub img {
+      margin: 0 5px;
+      vertical-align: middle; }
+  .company .content {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 996px;
+    font-size: 12px;
+    text-indent: 2em;
+    color: #666666;
+    line-height: 30px; }
+  .company ul {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    list-style: none;
+    width: 666px;
+    overflow: hidden; }
+    .company ul li {
+      width: 222px;
+      float: left;
+      text-align: center; }
+      .company ul li p {
+        margin-top: 20px; }
+
+.team {
+  margin: 0 auto;
+  padding-bottom: 62px;
+  width: 996px; }
+  .team .title {
+    text-align: left;
+    vertical-align: middle; }
+    .team .title img {
+      vertical-align: sub; }
+  .team p {
+    margin-bottom: 67px;
+    padding-left: 40px;
+    color: #666;
+    font-size: 12px;
+    line-height: 24px; }
+  .team .team-img {
+    position: relative;
+    height: 315px;
+    background-image: url(/images/en/icon_team.jpg);
+    background-repeat: no-repeat;
+    background-position: center; }
+    .team .team-img span {
+      font-size: 16px;
+      color: #333; }
+    .team .team-img .team-people {
+      position: absolute;
+      top: 50px;
+      right: 672px; }
+    .team .team-img .team-team {
+      position: absolute;
+      top: 115px;
+      right: 720px; }
+    .team .team-img .team_intel {
+      position: absolute;
+      top: 115px;
+      left: 720px; }
+    .team .team-img .team_tec {
+      position: absolute;
+      bottom: 5px;
+      left: 500px; }
+
+.mission {
+  position: relative;
+  height: 516px;
+  background-color: #f4f4f4;
+  text-align: center; }
+  .mission:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%; }
+  .mission .vision {
+    position: relative;
+    padding: 15px 30px;
+    z-index: 99;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url(/images/en/icon_mission_bg.png); }
+    .mission .vision p {
+      margin-bottom: 10px;
+      font-size: 24px;
+      font-weight: bolder;
+      color: #fff; }
+  .mission img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -501px; }
+
+.core {
+  padding: 80px 0;
+  background-color: #26b7bc; }
+  .core .title {
+    margin: 0 auto;
+    width: 1000px;
+    color: #fff;
+    font-size: 24px;
+    vertical-align: middle; }
+    .core .title img {
+      margin-right: 10px;
+      vertical-align: sub; }
+  .core p {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 58px;
+    width: 950px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px; }
+  .core ul {
+    margin: 0 auto;
+    width: 720px;
+    list-style: none;
+    overflow: hidden; }
+    .core ul li {
+      float: left;
+      width: 240px;
+      text-align: center; }
+      .core ul li span {
+        display: block;
+        margin-top: 20px;
+        font-size: 12px;
+        color: #fff; }
+
+.technology {
+  padding-top: 80px; }
+  .technology .title {
+    text-align: center;
+    font-size: 24px;
+    color: #26b7bc; }
+  .technology .sub {
+    margin: 10px 0;
+    text-align: center;
+    height: 15px;
+    line-height: 15px; }
+    .technology .sub span {
+      vertical-align: middle;
+      display: inline-block;
+      width: 45px;
+      border-top: #999 solid 1px; }
+    .technology .sub img {
+      margin: 0 5px;
+      vertical-align: middle; }
+  .technology .sub_text {
+    margin-bottom: 58px;
+    text-align: center; }
+    .technology .sub_text span {
+      padding: 0 15px;
+      display: inline-block;
+      height: 33px;
+      line-height: 33px;
+      min-width: 428px;
+      border: #26b7bc solid 1px;
+      border-radius: 15px;
+      color: #666; }
+  .technology .function {
+    margin: 0 auto;
+    width: 880px;
+    overflow: hidden; }
+    .technology .function .left,
+    .technology .function .right {
+      float: left;
+      width: 440px;
+      text-align: center; }
+      .technology .function .left .title,
+      .technology .function .right .title {
+        vertical-align: middle; }
+        .technology .function .left .title img,
+        .technology .function .right .title img {
+          vertical-align: sub; }
+        .technology .function .left .title p,
+        .technology .function .right .title p {
+          margin-top: 10px;
+          font-size: 12px;
+          color: #999; }
+      .technology .function .left ul,
+      .technology .function .right ul {
+        padding-top: 15px;
+        list-style: none; }
+        .technology .function .left ul li,
+        .technology .function .right ul li {
+          height: 41px;
+          text-align: left;
+          padding-left: 130px; }
+          .technology .function .left ul li img,
+          .technology .function .right ul li img {
+            margin-right: 5px;
+            vertical-align: middle; }
+          .technology .function .left ul li span,
+          .technology .function .right ul li span {
+            vertical-align: middle; }
+  .technology .img {
+    text-align: center; }
+
+.footer {
+  padding: 60px 0 40px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  background-color: #26b7bc; }
+  .footer .wechat {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+  .footer p {
+    margin-bottom: 10px; }
+  .footer img {
+    vertical-align: middle; }
+
+/*# sourceMappingURL=style.css.map */

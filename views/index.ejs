@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>大凨</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="//cdn.bootcss.com/Swiper/3.3.1/css/swiper.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/<%= language %>/style.css' />
+  </head>
+  <body>
+    <div class="header">
+      <img class="logo" src="/images/<%= language %>/icon_head_logo.png" height="56" width="133" alt="">
+      <div class="info">
+        <div class="phonetime">
+          <img src="/images/<%= language %>/icon_head_phone.png" height="18" width="16" alt="">
+          <span class="phone">400-780-0087</span>
+          <p class="time"><%= online %>：09:00--18:00</p>        
+        </div>
+        <div class="language">
+          <a class="<%= (language == 'en') ? '' : 'off' %>" href="/en/">
+              <span class="en icon-language"></span>
+              <span><%= english %></span>              
+          </a>
+          <a class="<%= (language == 'cn') ? '' : 'off' %>" href="/">
+              <span class="cn icon-language"></span>
+              <span><%= chinese %></span>              
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide banner01"></div>
+          <div class="swiper-slide banner02"></div>
+          <div class="swiper-slide banner03"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="company">
+      <div class="title"><%= company_intro_title %></div>
+      <p class="sub">
+        <span></span>
+        <img src="/images/<%= language %>/icon_point.png" height="15" width="15" alt="">
+        <span></span>
+      </p>
+      <p class="content"><%= company_intro_content %></p>
+      <ul>
+        <li>
+          <img src="/images/<%= language %>/icon_hardware.png" height="90" width="90" alt="">
+          <p><%= company_hard %></p>
+        </li>
+        <li>
+          <img src="/images/<%= language %>/icon_content.png" height="90" width="90" alt="">
+          <p><%= company_content %></p>
+        </li>
+        <li>
+          <img src="/images/<%= language %>/icon_ platform.png" height="90" width="90" alt="">
+          <p><%= company_platform %></p>
+        </li>
+      </ul>
+      <div class="team">
+        <div class="title">
+          <img src="/images/<%= language %>/icon_title.png" height="30" width="30" alt="">
+          <%= team %>
+        </div>
+        <p><%= team_intro %></p>
+        <div class="team-img">
+          <span class="team-people"><%= team_people %></span>
+          <span class="team-team"><%= team_team %></span>
+          <span class="team_intel"><%= team_intel %></span>
+          <span class="team_tec"><%= team_tec %></span>
+        </div>
+      </div>
+    </div>
+    <div class="mission">
+      <div class="vision">
+        <p><%= mission %></p>
+        <p><%= vision %></p>        
+      </div>
+      <img src="/images/<%= language %>/icon_mission.png" height="516" width="1002" alt="">
+    </div>
+    <div class="core">
+      <div class="title">
+        <img src="/images/<%= language %>/icon_core_title.png" height="30" width="30" alt="">
+        <%= core_title %>
+      </div>
+      <p><%= core_content %></p>
+      <ul>
+        <li>
+          <img src="/images/<%= language %>/icon_core_01.png" height="170" width="170" alt="">
+          <br>
+          <span><%= core_gather %></span>
+        </li>
+        <li>
+          <img src="/images/<%= language %>/icon_core_02.png" height="170" width="170" alt="">
+          <br>
+          <span><%= core_device %></span>
+        </li>
+        <li>
+          <img src="/images/<%= language %>/icon_core_03.png" height="170" width="170" alt="">
+          <br>
+          <span><%= core_transmit %></span>
+        </li>
+      </ul>
+    </div>
+    <div class="technology">
+      <div class="title"><%= technology_title %></div>
+      <p class="sub">
+        <span></span>
+        <img src="/images/<%= language %>/icon_point.png" height="15" width="15" alt="">
+        <span></span>
+      </p>
+      <p class="sub_text">
+        <span><%= technology_content %></span>
+      </p>
+      <div class="function">
+        <div class="left">
+          <div class="title">
+            <img src="/images/<%= language %>/icon_title.png" height="30" width="30" alt="">
+            <%= technology_left_title %>
+            <p><%= technology_left_text %></p>
+          </div>
+          <ul>
+            <li>
+              <img src="/images/<%= language %>/icon_tec_01.png" height="32" width="32" alt="">
+              <span><%= technology_left_list01 %></span>
+            </li>
+            <li>
+              <img src="/images/<%= language %>/icon_tec_02.png" height="32" width="32" alt="">
+              <span><%= technology_left_list02 %></span>
+            </li>
+            <li>
+              <img src="/images/<%= language %>/icon_tec_03.png" height="32" width="32" alt="">
+              <span><%= technology_left_list03 %></span>
+            </li>
+            <li>
+              <img src="/images/<%= language %>/icon_tec_04.png" height="32" width="32" alt="">
+              <span><%= technology_left_list04 %></span>
+            </li>
+          </ul>
+        </div>
+        <div class="right">
+          <div class="title">
+            <img src="/images/<%= language %>/icon_title.png" height="30" width="30" alt="">
+            <%= technology_right_title %>
+            <p><%= technology_right_text %></p>
+          </div>
+          <ul>
+            <li>
+              <img src="/images/<%= language %>/icon_tec_05.png" height="31" width="32" alt="">
+              <span><%= technology_right_list01 %></span>
+            </li>
+            <li>
+              <img src="/images/<%= language %>/icon_tec_06.png" height="31" width="32" alt="">
+              <span><%= technology_right_list02 %></span>
+            </li>
+            <li>
+              <img src="/images/<%= language %>/icon_tec_07.png" height="31" width="32" alt="">              
+              <span><%= technology_right_list03 %></span>
+            </li>
+          </ul>
+        </div>  
+      </div>
+      <div class="img">
+        <img src="/images/<%= language %>/icon_tec.png" height="450" width="575" alt="">
+      </div>
+    </div>
+    <div class="footer">
+      <p><%= connect_us %></p>
+      <img class="wechat" src="/images/<%= language %>/icon_footer_wechat.jpg" height="170" width="170" alt="">
+      <p>
+        <img src="/images/<%= language %>/icon_head_phone.png" height="18" width="16" alt="">
+        <%= phone %>400-780-0087
+      </p>
+      <p>
+        <img src="/images/<%= language %>/icon_footer_local.png" height="23" width="17" alt="">
+        <%= place %>
+      </p>
+      <p><%= record %></p>
+    </div>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script>
+      var mySwiper = new Swiper('.swiper-container', {
+        autoplay: 5000,
+        loop:true,
+        pagination : '.swiper-pagination',
+        paginationClickable :true,
+      });
+    </script>
+  </body>
+</html>
